@@ -10,7 +10,7 @@ type Props = {
 
 export const SQLInput = ({ value, onChange, onRun }: Props) => {
   return (
-    <div className="w-3/4 p-2">
+    <>
       <div className="h-40 border rounded overflow-hidden">
         <Editor
           height="100%"
@@ -26,6 +26,6 @@ export const SQLInput = ({ value, onChange, onRun }: Props) => {
       >
         Run Query
       </button>
-    </div>
+    </>
   );
 };
